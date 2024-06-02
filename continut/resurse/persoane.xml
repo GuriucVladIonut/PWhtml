@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE persoane SYSTEM "persoane.dtd">
+<persoane>
+    <persoana id="p1">
+        <nume>Popescu</nume>
+        <prenume>Ion</prenume>
+        <varsta>23</varsta>
+        <adresa>
+            <strada>Piezișă</strada>
+            <numar>8A</numar>
+            <localitate>Cluj-Napoca</localitate>
+            <judet>Cluj-Napoca</judet>
+            <tara>România</tara>
+        </adresa>
+        <cv>
+            <limbi_vorbite>
+                <franceza>da</franceza>
+                <engleza>da</engleza>
+                <rusa>nu</rusa>
+            </limbi_vorbite>
+        </cv>
+    </persoana>
+
+    <persoana id="p2">
+        <nume>Duckadam</nume>
+        <prenume>Helmuth</prenume>
+        <varsta>60</varsta>
+        <adresa>
+            <strada>7Mai</strada>
+            <numar>1986</numar>
+            <localitate>București</localitate>
+            <judet>București</judet>
+            <tara>România</tara>
+        </adresa>
+        <cv>
+            <limbi_vorbite>
+                <franceza>da</franceza>
+                <engleza>nu</engleza>
+                <rusa>da</rusa>
+            </limbi_vorbite>
+        </cv>
+    </persoana>
+
+    <persoana id="p3">
+        <nume>Pop</nume>
+        <prenume>Nelson-Simone</prenume>
+        <varsta>58</varsta>
+        <adresa>
+            <strada>Mănăștur</strada>
+            <numar>9600</numar>
+            <localitate>Cluj-Napoca</localitate>
+            <judet>Cluj-Napoca</judet>
+            <tara>România</tara>
+        </adresa>
+        <cv>
+            <limbi_vorbite>
+                <franceza>nu</franceza>
+                <engleza>nu</engleza>
+                <rusa>da</rusa>
+            </limbi_vorbite>
+        </cv>
+    </persoana>
+</persoane>

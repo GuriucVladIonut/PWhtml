@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="css/stil.css">
+    <title>
+        Învăț
+    </title>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <script src="js/script.js"></script>
+    <div class="clasa_sec" id="invat-content"> </div>
+
+    <div id="clock"></div>
+
+    <button id="loadButton">Sectiunea 1</button>
+
+    <script src="js/script.js"></script>
+
+    <script>
+        function updateTime() {
+            var now = new Date();
+            var hours = now.getHours();
+            var minutes = now.getMinutes();
+            var seconds = now.getSeconds();
+
+            var timeString = hours + ":" + minutes + ":" + seconds;
+
+            document.getElementById("clock").textContent = timeString;
+        }
+
+        updateTime();
+
+        setInterval(updateTime, 1000);
+
+
+        document.getElementById("loadButton").addEventListener("click", function() {
+            loadAll(); 
+        });
+    </script>
+</body>

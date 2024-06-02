@@ -1,0 +1,138 @@
+body{
+    background-color: #488948;
+}
+
+
+p{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+h2{
+    color:white;
+    text-align: center;
+    align-self: hover;
+}
+
+#navbar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #127259;
+    font-size: 20px;
+    
+}
+
+#navbar-container a{
+    padding: 1%;
+}
+
+a:hover {
+    background-color: #111;
+}
+.active {
+    background-color: #04AA6D;
+  }
+  
+
+#sec a{
+    padding: 3%;
+    font-size: 1.5em;
+}
+
+#sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #127259;
+    font-size: 20px;
+    justify-self: center;
+}
+
+.clasa_sec{
+
+    width: 800;
+    height: 560;
+    color:rgb(48, 192, 86);
+}
+
+#navbarp {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px 0;
+  }
+
+  #navbarp img {
+    width: 300px;
+    height: 80;
+    
+  }
+  #navbarp a{
+    padding: 1%;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(0, 0, 0);
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .flex-container > div {
+    background-color: #2b903a;
+    width: 1285px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 60px;
+    padding: 2%;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3c9d49;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: #444;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f974d3;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+li:hover {
+    background-color: #f0f0f0;
+}
+
+#navbarc{
+    display: flex;
+    justify-content: center;
+    background-color: #bd4444;
+    padding: 1%;
+  }
+
+#navbarc img{
+    max-width: 20%; 
+    height: auto; 
+}
+    
